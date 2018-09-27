@@ -18,24 +18,21 @@
 #                                                                            #
 
 {
-    "name": "Sale Add Product By Scan",
-    "version": "11.0.1.0.0",
-    "license": "AGPL-3",
-    "depends": ["base", "barcodes", "sale"],
+    "name": "销售金额抹零",
+    "version": "1.0",
+    "depends": ["sale","account"],
     "author": "山西清水欧度信息技术有限公司",
-    "category": "Sales",
-    'website': 'http://www.odooqs.com',
+    "category": "account",
     "description": """
-        Scan directly using scan code equipment 
     """,
-    "data": [
-        'views/sale_barcode_template.xml',
+    "data":[
+        'security/ir.model.access.csv',
+        'views/account_cash_rounding_view.xml',
         'views/sale_order_view.xml',
     ],
     "init_xml": [],
     'update_xml': [],
     'demo_xml': [],
-    'images': ['static/description/barcode_01.jpg','static/description/main_screenshot.png'],
     'installable': True,
     'active': False,
     #    'certificate': '',

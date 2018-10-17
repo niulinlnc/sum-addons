@@ -19,7 +19,7 @@
 
 {
     "name": "Report Pdf Preview",
-    "version": "1.0",
+    "version": "12.0.1.0.1",
     "depends": ["web"],
     "author": "山西清水欧度信息技术有限公司",
     'website': 'http://www.odooqs.com',

@@ -11,6 +11,7 @@
             <script type="text/javascript" src="/report_pdf_preview/static/src/js/preview_generator.js"/>
             <script type="text/javascript" src="/report_pdf_preview/static/src/js/preview_dialog.js"/>
             <script type="text/javascript" src="/report_pdf_preview/static/src/js/web_pdf_preview.js"/>
+             <script type="text/javascript" src="/report_pdf_preview/static/lib/printThis/printThis.js"/>
         </xpath>
     </template>
 </odoo>
